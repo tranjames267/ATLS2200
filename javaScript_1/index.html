@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>JavaScript_1</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" >
+</head>
+<body>
+<section id="hero" >
+  <h1>Welcome</h1>
+  <img alt="lake with a sunset" src="hero2.jpg" id="heroimg" class="img1">
+</section>
+
+<section id="one">
+  <h2>Section with text</h2>
+  <p>Lorem ipsum <a href="https://google.com" target="_blank">click here to learn more</a> consectetur adipiscing elit. Suspendisse tempus odio tempus mauris lobortis, at ornare purus pulvinar. Proin eu enim rhoncus, suscipit tellus eu, bibendum lorem. Nam eu ex at mi efficitur posuere. Sed semper imperdiet orci ac sagittis. Proin ullamcorper metus eget velit molestie, in tincidunt eros elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla tempor lobortis lacus ut ullamcorper. Nunc dignissim nec nibh eget mollis.</p>
+  <p>
+  Etiam dui lectus, lobortis vel massa vitae, euismod sodales lacus. Integer quis congue dui. Aliquam fermentum placerat leo, sit amet egestas ante. Sed ipsum lectus, consectetur ut libero eget, semper posuere metus. Nulla nisi diam, fermentum at ligula in, gravida tempus arcu. Morbi blandit sagittis risus vitae pretium. Morbi eget metus et erat maximus consequat. Sed eget ante in neque pharetra feugiat. In aliquam mauris nec euismod rhoncus. Aenean elementum vel risus ac tempor.</p>
+  </section>
+  <section id="two">
+    <h2>Section with more text</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus odio tempus mauris lobortis, at ornare purus pulvinar. Proin eu enim rhoncus, suscipit tellus eu, bibendum lorem. Nam eu ex at mi efficitur posuere. Sed semper imperdiet orci ac sagittis. Proin ullamcorper metus eget velit molestie, in tincidunt eros elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla tempor lobortis lacus ut ullamcorper. Nunc dignissim nec nibh eget mollis.
+    </p>
+    <p>
+    Etiam dui lectus, lobortis vel massa vitae, euismod sodales lacus. Integer quis congue dui. Aliquam fermentum placerat leo, sit amet egestas ante. Sed ipsum lectus, consectetur ut libero eget, semper posuere metus. Nulla nisi diam, fermentum at ligula in, gravida tempus arcu. Morbi blandit sagittis risus vitae pretium. Morbi eget metus et erat maximus consequat. Sed eget ante in neque pharetra feugiat. In aliquam mauris nec euismod rhoncus. Aenean elementum vel risus ac tempor.</p>
+    </section>
+  <section id="three">
+    <h2 id="bheader">Section With Some Buttons</h2>
+    <button id="Button1">Change Section 3 Title</button>
+    <button id="Button2">Make Section 2 Black</button>
+  </section>
+  <footer>
+    <p>James Tran ATLS 2200 Web JavaScript Practice</p>
+    </footer>
+
+
+    <script>
+      document.getElementById("Button1").addEventListener("click", buttonClicked);
+      document.getElementById("Button2").addEventListener("click", button2Clicked);
+      document.getElementById("two").addEventListener("click", function(){alert("you clicked section 2")});
+      function buttonClicked(){
+        alert("Section 3 Title Will Change");
+        document.getElementById("bheader").innerHTML = "Text Changes From Button";
+        document.getElementById("bheader").style.color = "#ff2baa";
+      }
+      function button2Clicked(){
+        alert("Section 2 will become black. Don't worry, section 2 doesn't have sensitive information :)");
+        document.getElementById("two").style.background = "#000000";
+      }
+    </script>
+</body>
+
+</html>
