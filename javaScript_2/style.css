@@ -1,0 +1,40 @@
+body{
+  background-color: grey;
+  font-family: "Open Sans";
+}
+
+#quotes{
+  background-color: skyblue;
+  margin: 18vh 13vw;
+  padding: 8vh 10vw 10vh 10vw;
+  border-radius: 8px;
+}
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  font-family: "Open Sans"
+}
+
+.flex{
+  display: flex;
+  padding-top: 5vh;
+}
+
+div{
+  margin-left: 2vw;
+  margin-right: 2vw;
+  background-color: yellow;
+  color: yellow;
+}
+
+.flexitem{
+  flex-grow: 1;
+  text-align: center;
+}
+
+.flexitem2{
+  flex-grow: 2;
+  text-align: center;
+}

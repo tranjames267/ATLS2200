@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" >
+</head>
+<body>
+
+<section class="flex">
+  <div class="flexitem">
+    <h2> Dotted </h2>
+  </div>
+
+  <div class="flexitem2">
+    <h2> Dotted </h2>
+  </div>
+
+  <div class="flexitem">
+    <h2> Dotted </h2>
+  </div>
+</section>
+
+<section id="quotes">
+<h1 id="qtext"> Click the button to get a driving quote </h1>
+<button id="newquote"> New Quote </button>
+</section>
+
+<section class="flex">
+  <div class="flexitem">
+    <h2> Dotted </h2>
+  </div>
+
+  <div class="flexitem2">
+    <h2> Dotted </h2>
+  </div>
+
+  <div class="flexitem">
+    <h2> Dotted </h2>
+  </div>
+</section>
+
+<script>
+
+  const quotes = ["They're speeding like crazy since they need to use the restroom :)","Life is a Highway! I wanna ride it all night long!","If you take care of your car, your car will take care of you on the road.","Certified stunt drivers get paid. Dangerous driving will earn you tragedy.","Money can’t buy happiness, but love can’t buy a Tesla either.","How to become a good driver: Just keep driving and try not to die.","Straight roads are for fast cars, turns are for fast drivers."];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount >= 6){
+      quotecount = 0;
+    }
+    else{
+      quotecount ++;
+    }
+  }
+</script>
+</body>
+
+</html>
