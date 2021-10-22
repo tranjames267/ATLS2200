@@ -1,8 +1,9 @@
+/* font family will be consistent for the entire page */
 body{
   font-family: "Poppins";
 }
 h1{
-  padding-top: 5vh;
+  padding-top: 4vh;
   text-align: center;
 }
 hr{
@@ -11,16 +12,31 @@ hr{
   margin-left: 25vw;
   margin-right: 25vw;
 }
+
+/* This will style the section with the day and action items */
 #dayItems{
   margin-left: 25vw;
   margin-right: 25vw;
   margin-top: 2vh;
   background-color: #86F3E6;
   padding-left: 3vw;
+  padding-right: 3vw;
   padding-top: 2vh;
   padding-bottom: 2vh;
   border-radius: 10px;
 }
+li{
+  font-size: 3vh;
+  margin-top: 5vh;
+}
+audio{
+  padding-left: 10.7vw;
+  padding-right: 10.7vw;
+  padding-top: 0.5vh;
+  width: 19.5vw;
+}
+
+/* This will style the quote box */
 #quoteArea{
   margin-left: 25vw;
   margin-right: 25vw;
@@ -32,25 +48,23 @@ hr{
   font-size: 3vh;
   border-radius: 10px;
 }
+#qtext{
+  font-size: 1.3vw;
+}
+
+/* This will style the button */
 button{
   font-family: "Poppins";
   margin-left: 40vw;
   margin-right: 40vw;
   margin-top: 2vh;
   padding: 1.5vh 3vw;
-  background-color: #D9D7D7;
+  background-color: black;
+  color: white;
   border: none;
   font-size: 3vh;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 button:hover{
-  background-color: darkgrey;
-}
-button:active{
-  background-color: black;
-  color: white; 
-}
-li{
-  font-size: 3vh;
-  margin-top: 6vh;
+  background-color: grey;
 }
