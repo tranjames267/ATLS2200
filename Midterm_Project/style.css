@@ -3,7 +3,7 @@ body{
   font-family: "Poppins";
 }
 h1{
-  padding-top: 4vh;
+  padding-top: 3.5vh;
   text-align: center;
 }
 hr{
@@ -13,7 +13,7 @@ hr{
   margin-right: 25vw;
 }
 
-/* This will style the section with the day and action items */
+/* This will style the section with the day, action items, and audio */
 #dayItems{
   margin-left: 25vw;
   margin-right: 25vw;
@@ -30,10 +30,10 @@ li{
   margin-top: 5vh;
 }
 audio{
-  padding-left: 10.7vw;
-  padding-right: 10.7vw;
+  padding-left: 10.8vw;
+  padding-right: 10.8vw;
   padding-top: 0.5vh;
-  width: 19.5vw;
+  width: 19.7vw;
 }
 
 /* This will style the quote box */
@@ -45,11 +45,10 @@ audio{
   padding-left: 3vw;
   padding-top: 0.5vh;
   padding-bottom: 0.5vh;
-  font-size: 3vh;
   border-radius: 10px;
 }
 #qtext{
-  font-size: 1.3vw;
+  font-size: 1.4vw;
 }
 
 /* This will style the button */
