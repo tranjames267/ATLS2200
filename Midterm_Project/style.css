@@ -66,4 +66,5 @@ button{
 }
 button:hover{
   background-color: grey;
+  border: none; 
 }
