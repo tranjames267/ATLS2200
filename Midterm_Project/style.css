@@ -68,3 +68,6 @@ button:hover{
   background-color: grey;
   border: none;
 }
+button:active{
+  border: none; 
+}
