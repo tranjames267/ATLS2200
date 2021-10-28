@@ -54,8 +54,8 @@ audio{
 /* This will style the button */
 button{
   font-family: "Poppins";
-  margin-left: 40.3vw;
-  margin-right: 40.3vw;
+  margin-left: 40vw;
+  margin-right: 40vw;
   margin-top: 2vh;
   padding: 1.5vh 3vw;
   background-color: black;
@@ -66,5 +66,5 @@ button{
 }
 button:hover{
   background-color: grey;
-  border: none; 
+  border: none;
 }
