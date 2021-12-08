@@ -1,0 +1,51 @@
+body{
+    font-family: "Roboto";
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+nav a{
+  font-size: 1.3vw;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #837F7F;
+}
+
+nav a:hover{
+  color: #83BFE1;
+}
+
+nav a:active{
+  color: #A40000;
+}
+
+#selected{
+  color: #A40000;
+}
+hr{
+  border: solid 2px #A40000;
+  border-radius: 5px;
+  background: #A40000;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+#resume{
+  margin-top: 7vh;
+  text-align: center;
+}
+
+iframe{
+  width: 55vw;
+  height: 1130px;
+}

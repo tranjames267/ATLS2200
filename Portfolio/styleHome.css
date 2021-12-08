@@ -1,0 +1,126 @@
+body{
+    font-family: "Roboto";
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+#infoAndPic{
+  display: flex;
+}
+
+#title{
+  margin-top: 6vh;
+  margin-left: 50px;
+}
+
+#description{
+  margin-top: 8vh;
+  margin-left: 50px;
+  font-size: 0.9vw;
+}
+
+#face{
+  margin-top: 8vh;
+  margin-left: 10vw;
+}
+
+button{
+  margin-left: 50px;
+  margin-top: 8vh;
+  font-family: "Roboto";
+  width: 20vw;
+  font-size: 1.8vw;
+  padding-top: 1.5vh;
+  padding-bottom: 1.5vh;
+  border-radius: 10px;
+  border:none;
+  background-color: #A40000;
+  color: white;
+}
+button:hover{
+  border: none;
+  background-color: #83BFE1;
+}
+
+img{
+  width: 30vw;
+}
+
+h1{
+  font-size: 7vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+nav a{
+  font-size: 1.3vw;
+  font-weight: 300;
+  margin-top: 15px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #837F7F;
+}
+
+nav a:hover{
+  color: #83BFE1;
+}
+
+nav a:active{
+  color: #A40000;
+}
+
+#selected{
+  color: #A40000;
+}
+hr{
+  border: solid 2px #A40000;
+  border-radius: 5px;
+  background: #A40000;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+#detailsoverlay{
+  display:none;
+  width: 100vw;
+  height:100vh;
+  background-color: RGBA(0,0,0,0.5);
+  position:fixed;
+  margin:0;
+  top:0;
+  left:0;
+}
+
+#details{
+  display:none;
+  z-index:1;
+  width:30vw;
+  height:60vh;
+  position:fixed;
+  background-color: white;
+  left: calc(55vw - calc(50vw / 2));
+  padding:3vw;
+  top:100px;
+  text-align: left;
+}
+#details p{
+  font-size: 1.3vw;
+}
+#details a:visited{
+  color: #A40000;
+}
+#details a{
+  color: #A40000;
+  font-size: 1.3vw;
+}
+#details a:hover{
+  color: #83BFE1;
+}
