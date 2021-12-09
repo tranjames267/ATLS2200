@@ -4,6 +4,7 @@ body{
     margin-right: 7vw;
 }
 
+/* styling for my nav bar */
 nav{
   display:flex;
   width: 50vw;
@@ -40,6 +41,7 @@ hr{
   margin-top: 15px;
 }
 
+/* styling for my iframe  */
 #resume{
   margin-top: 7vh;
   text-align: center;

@@ -1,3 +1,5 @@
+// This javaScript is for my modal
+
 let displaydetails = false;
 document.getElementById('contactBtn').addEventListener("click", showDetails);
 

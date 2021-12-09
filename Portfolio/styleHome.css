@@ -52,6 +52,8 @@ h1{
   margin-bottom: 2vh;
 }
 
+/* styling for my nav bar */
+
 nav{
   display:flex;
   width: 50vw;
@@ -87,6 +89,8 @@ hr{
   margin-right: 50px;
   margin-top: 15px;
 }
+
+/* styling for my modal */
 
 #detailsoverlay{
   display:none;

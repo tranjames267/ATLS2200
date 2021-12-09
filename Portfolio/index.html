@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
   <title>Home Page</title>
+  <!-- each page will have its own style sheet -->
   <link rel="stylesheet" href="styleHome.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" >
 </head>
 <body>
-
+<!-- This is the nav bar -->
   <nav>
       <a href="index.html" id="selected">Home</a>
       <a href="resume.html">Resume</a>
@@ -14,26 +15,29 @@
   </nav>
   <hr>
 
-  <section id="infoAndPic">
+<!-- Contains left side info and image for flexbox later (side by side) -->
+  <div id="infoAndPic">
     <div>
-    <section id="title">
+    <div id="title">
       <h1> Hello,</h1>
       <h1> I'm James  </h1>
-    </section>
+    </div>
 
-    <section id="description">
+    <div id="description">
       <h2> Creative Technology and Design</h2>
       <h2> Aspiring UI/UX Designer </h2>
-    </section>
+    </div>
 
     <button id="contactBtn"> Contact </button>
     </div>
 
-    <section id="face">
+    <div id="face">
     <img alt="my face" src="portfolioFace.jpeg" id="faceimg" class="img1">
-    </section>
+  </div>
 
-</section>
+</div>
+
+<!-- this is for my modal when the button is clicked -->
 <div id="detailsoverlay">
     <div id="details">
       <h2> Linkedin</h2>

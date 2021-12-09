@@ -4,6 +4,7 @@ body{
     margin-right: 7vw;
 }
 
+/* This styles my nav bar */
 nav{
   display:flex;
   width: 50vw;
@@ -44,6 +45,8 @@ h1{
   font-size: 3vw;
   margin-bottom: 0px;
 }
+
+/* This styles my iframes */
 #figma{
   text-align: center;
 }
